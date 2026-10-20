@@ -146,12 +146,6 @@ data can be loaded into **Redshift** or **Snowflake** for warehouse-style worklo
 - [ ] Add a dead-letter queue and replay tooling
 - [ ] Add data quality checks and unit tests for the processing Lambda
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 <p align="center">
   <sub>Built with S3 · EventBridge · Step Functions · Lambda · SQS · SNS · Athena / Redshift / Snowflake</sub>
 </p>
