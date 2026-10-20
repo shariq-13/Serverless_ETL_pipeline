@@ -1,5 +1,0 @@
-serverless_etl_eventbridge
-serverless_etl_stepfunction
-orders-step-function-custom-role
-orders-step-function-custom-policy
-serverless_etl_eventbridge_Execution_role
