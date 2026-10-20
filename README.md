@@ -61,7 +61,7 @@ Redshift or Snowflake.
 </p>
 
 ## Pipeline Stages
-
+<img width="509" height="551" alt="image" src="https://github.com/user-attachments/assets/53f55496-ee10-4eca-92cd-8b006a8753df" />
 | # | Stage | Service | Role |
 |---|---|---|---|
 | 1 | Source | JSON / CSV files | Incoming data files |
