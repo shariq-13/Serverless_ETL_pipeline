@@ -1,0 +1,14 @@
+SF_USER 
+→ Your Snowflake username
+
+SF_PASSWORD 
+→ Your Snowflake password
+
+SF_ACCOUNT 
+→ Your Snowflake account identifier (e.g., xy12345.us-east-1)
+
+SF_WAREHOUSE 
+→ Your warehouse name (e.g., COMPUTE_WH)
+
+SF_DATABASE 
+→ Your manually created database name (e.g., SERVERLESS_ETL_DB)

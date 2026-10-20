@@ -1,0 +1,12 @@
+Matched Pattern
+{
+  "source": ["custom.etl.source"],
+  "detail-type": ["ETLTriggerEvent"]
+}
+
+Event Pattern:-
+{
+    "bucket": "serverless-etl-s3",
+    "key": "raw/AdventureWorks_Customers.csv"
+            
+}

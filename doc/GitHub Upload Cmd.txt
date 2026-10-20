@@ -1,0 +1,8 @@
+git remote add origin https://github.com/shariq-13
+https://github.com/shariq-13
+
+git remote set-url origin https://github.com/shariq-13/SHARIQ
+git remote set-url origin https://github.com/shariq-13/water-quality-medallion-pipeline
+
+
+see this variables file text so as in varaiables wrt to make main file text accordingly also dont include glue athena for analytics in teraform in make analytics in snowflake

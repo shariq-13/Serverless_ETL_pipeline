@@ -1,0 +1,39 @@
+1. bucket name is already taken before writing your code, use the AWS CLI
+------aws s3api head-bucket --bucket YOUR_DESIRED_BUCKET_NAME--------------
+aws s3api head-bucket --bucket serverless-etl-s3
+*******aws: [ERROR]: An error occurred (404) when calling the HeadBucket operation: Not Found****** ok to use name
+
+2. bucket creation
+aws s3api create-bucket --bucket serverless-etl-s3 --region us-east-1
+arn:aws:s3:::serverless-etl-s3
+
+3.bucket inside folder as (raw)
+*single folder as this
+aws s3api put-object --bucket serverless-etl-s3 --key raw/
+
+* multiple folder as this
+aws s3api put-object --bucket serverless-etl-s3 --key raw/ && \
+aws s3api put-object --bucket serverless-etl-s3 --key silver/ && \
+aws s3api put-object --bucket serverless-etl-s3 --key gold/
+
+4.Put file local to aws
+aws s3 cp AdventureWorks_Customers.csv s3://serverless-etl-s3/raw/AdventureWorks_Customers.csv
+
+5. Sns Topic creation
+aws sns create-topic --name serverless_etl_sns
+
+"TopicArn": "arn:aws:sns:us-east-1:711695043825:serverless_etl_sns"
+
+aws sns subscribe --topic-arn arn:aws:sns:us-east-1:711695043825:serverless_etl_sns --protocol email --notification-endpoint shariqahmadofficial@gmail.com
+(confirmed thru your email as Simple Notification Service
+Subscription confirmed!
+You have successfully subscribed.
+
+Your subscription's id is:
+arn:aws:sns:us-east-1:711695043825:serverless_etl_sns:50b8c402-4817-4599-9841-e3f650d1d047
+
+If it was not your intention to subscribe, click here to unsubscribe.)
+
+6. Sqs queue
+aws sqs create-queue --queue-name orders-processing-queue
+arn:aws:sqs:us-east-1:711695043825:orders-processing-queue
