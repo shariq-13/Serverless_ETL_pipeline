@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/architecture-event--driven-informational?style=flat-square">
   <img src="https://img.shields.io/badge/layers-Silver%20%C2%B7%20Gold-informational?style=flat-square">
   <img src="https://img.shields.io/badge/compute-serverless-success?style=flat-square">
-  <img src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square">
 </p>
 
 ---
