@@ -61,7 +61,8 @@ Redshift or Snowflake.
 </p>
 
 ## Pipeline Stages
-<img width="509" height="551" alt="image" src="https://github.com/user-attachments/assets/53f55496-ee10-4eca-92cd-8b006a8753df" />
+
+<p align="center">
 | # | Stage | Service | Role |
 |---|---|---|---|
 | 1 | Source | JSON / CSV files | Incoming data files |
@@ -74,6 +75,8 @@ Redshift or Snowflake.
 | 8 | Silver | Amazon S3 | Validated, deduplicated data |
 | 9 | Gold | Amazon S3 | Business-level datasets and aggregates |
 | 10 | Analytics | Athena / Redshift / Snowflake | Query in place, or load curated data |
+<img width="509" height="551" alt="image" src="https://github.com/user-attachments/assets/53f55496-ee10-4eca-92cd-8b006a8753df" />
+</p>
 
 ## Data Layers
 
